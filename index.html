@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aymará Turismo - Más de 35 años de experiencia en excursiones y tours en Mendoza. DMC líder en la región.">
+  <title>Aymará Turismo - Excursiones en Mendoza | Tarifas 2025</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- HERO SLIDER -->
+  <header class="hero">
+    <div class="slider-container">
+      <div class="slider-track">
+        <div class="slide active">
+          <img src="https://i.ibb.co/C5P1vVPV/image.png" alt="Mendoza - Experiencias únicas" loading="lazy">
+        </div>
+        <div class="slide">
+          <img src="https://i.ibb.co/SwXFmjDC/image.png" alt="Mendoza - Vinos y bodegas" loading="lazy">
+        </div>
+        <div class="slide">
+          <img src="https://i.ibb.co/0pcp3gY8/image.png" alt="Mendoza - Aventura" loading="lazy">
+        </div>
+        <div class="slide">
+          <img src="https://i.ibb.co/q3ynKRyx/image.png" alt="Mendoza - Naturaleza" loading="lazy">
+        </div>
+        <div class="slide">
+          <img src="https://i.ibb.co/v4grWq4k/image.png" alt="Mendoza - Montañas" loading="lazy">
+        </div>
+      </div>
+      <div class="slider-overlay"></div>
+      <div class="slider-logo">
+        <img 
+          src="https://i.ibb.co/Jj9spWWg/Logos-varias-opciones-2.png" 
+          alt="Aymará Turismo Logo"
+          loading="eager"
+          width="100"
+          height="100"
+        >
+      </div>
+      <div class="slider-controls">
+        <button class="slider-btn prev" aria-label="Imagen anterior">‹</button>
+        <button class="slider-btn next" aria-label="Siguiente imagen">›</button>
+      </div>
+      <div class="slider-dots"></div>
+    </div>
+  </header>
+
+  <!-- SOBRE NOSOTROS -->
+  <section class="about">
+    <div class="container">
+      <span class="badge">Tarifas 2025</span>
+      <h1>Excursiones Aymará</h1>
+      <p class="about-text">
+        Con más de <strong>35 años de trayectoria</strong>, en Aymará Turismo
+        combinamos experiencia, pasión y profundo conocimiento local para diseñar
+        viajes y eventos únicos en Mendoza. Como DMC líder en la región,
+        acompañamos a nuestros clientes y partners con dedicación, seguridad y
+        excelencia, creando experiencias auténticas en cada rincón de nuestra
+        provincia.
+      </p>
+    </div>
+  </section>
+
+  <!-- FILTROS DE CATEGORÍA -->
+  <section class="filters">
+    <div class="container">
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-category="all">Todas</button>
+        <button class="filter-btn" data-category="convencionales">Convencionales</button>
+        <button class="filter-btn" data-category="vinos">Tours de Vinos</button>
+        <button class="filter-btn" data-category="aventura">Aventura</button>
+        <button class="filter-btn" data-category="exclusiva">Mendoza Exclusiva</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- GRID DE EXCURSIONES -->
+  <main class="excursions-grid">
+    <div class="container">
+      <div class="grid" id="excursionsGrid">
+        <!-- EXCURSIONES CONVENCIONALES -->
+        <article class="excursion-card" data-category="convencionales">
+          <div class="card-image">
+            <img src="https://i.ibb.co/R4ZhDJgk/image.png" alt="Ciudad y alrededores" loading="lazy">
+            <a href="https://photos.app.goo.gl/tC43WHfEzVaurh19A" target="_blank" class="gallery-link" rel="noopener noreferrer">
+              📸 Ver galería
+            </a>
+            <span class="category-badge">Convencionales</span>
+          </div>
+          <div class="card-content">
+            <h3>Ciudad y alrededores</h3>
+            <div class="price">$28.500 <span class="currency">ARS</span></div>
+            <p class="description">Salidas martes, jueves y sábados · 08:30hs a 12:30hs · Medio día.</p>
+            <button class="btn-consult" data-excursion="ciudad-alrededores">Consultar</button>
+          </div>
+        </article>
+
+        <article class="excursion-card" data-category="convencionales">
+          <div class="card-image">
+            <img src="https://i.ibb.co/6c6k9PDM/Bodegas-y-Olivas2.jpg" alt="Bodegas y Olivas" loading="lazy">
+            <a href="https://photos.app.goo.gl/g8LA6aEb6VXmjpoM7" target="_blank" class="gallery-link" rel="noopener noreferrer">
+              📸 Ver galería
+            </a>
+            <span class="category-badge">Convencionales</span>
+          </div>
+          <div class="card-content">
+            <h3>Bodegas y Olivas</h3>
+            <div class="price">$44.000 <span class="currency">ARS</span></div>
+            <p class="description">Salidas lunes a sábado · 14:30hs a 19:30hs · Medio día. Zona Maipú, visita a 2 bodegas + 1 aceitera de oliva (sin elección).</p>
+            <button class="btn-consult" data-excursion="bodegas-olivas">Consultar</button>
+          </div>
+        </article>
+
+        <article class="excursion-card" data-category="convencionales">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM5OTczNTN8&ixlib=rb-4.1.0&q=85" alt="Alta Montaña" loading="lazy">
+            <a href="https://photos.app.goo.gl/EEP5B9TgZqAfHN4W9" target="_blank" class="gallery-link" rel="noopener noreferrer">
+              📸 Ver galería
+            </a>
+            <span class="category-badge">Convencionales</span>
+          </div>
+          <div class="card-content">
+            <h3>Alta Montaña</h3>
+            <div class="price">$78.000 <span class="currency">ARS</span></div>
+            <p class="description">Salidas lunes a domingo · 07:30hs a 19:00hs. Almuerzo no incluido.</p>
+            <button class="btn-consult" data-excursion="alta-montana">Consultar</button>
+          </div>
+        </article>
+
+        <article class="excursion-card" data-category="convencionales">
+          <div class="card-image">
+            <img src="https://i.ibb.co/zdYmxw1/image.png" alt="Valle de Uco" loading="lazy">
+            <a href="https://photos.app.goo.gl/j1hGZQHWGTh1Z4AC7" target="_blank" class="gallery-link" rel="noopener noreferrer">
+              📸 Ver galería
+            </a>
+            <span class="category-badge">Convencionales</span>
+          </div>
+          <div class="card-content">
+            <h3>Valle de Uco</h3>
+            <div class="price">$78.000 <span class="currency">ARS</span></div>
+            <p class="description">Salida viernes · 08:30hs a 18:00hs. Entrada a bodega con degustación no incluida (aprox. $20.000). Almuerzo no incluido.</p>
+            <button class="btn-consult" data-excursion="valle-uco">Consultar</button>
+          </div>
+        </article>
+
+        <article class="excursion-card" data-category="convencionales">
+          <div class="card-image">
+            <img src="https://i.ibb.co/VWgjYfs6/image.png" alt="Cañón del Atuel" loading="lazy">
+            <a href="https://photos.app.goo.gl/Ng51ejfTHQ1rKLW69" target="_blank" class="gallery-link" rel="noopener noreferrer">
+              📸 Ver galería
+            </a>
+            <span class="category-badge">Convencionales</span>
+          </div>
+          <div class="card-content">
+            <h3>Cañón del Atuel</h3>
+            <div class="price">$93.500 <span class="currency">ARS</span></div>
+            <p class="description">Salidas jueves y domingos · 07:00hs a 22:00hs. Almuerzo y opcionales no incluidos.</p>
+            <button class="btn-consult" data-excursion="canon-atuel">Consultar</button>
+          </div>
+        </article>
+
+        <article class="excursion-card" data-category="convencionales">
+          <div class="card-image">
+            <img src="https://i.ibb.co/JjmrJY6h/image.png" alt="Villavicencio" loading="lazy">
+            <span class="category-badge">Convencionales</span>
+          </div>
+          <div class="card-content">
+            <h3>Villavicencio</h3>
+            <div class="price">$46.000 <span class="currency">ARS</span></div>
+            <p class="description">Salidas miércoles y sábados · 07:30hs a 13:00hs. Entrada a reserva no incluida (aprox. $20.000).</p>
+            <button class="btn-consult" data-excursion="villavicencio">Consultar</button>
+          </div>
+        </article>
+
+        <article class="excursion-card" data-category="convencionales">
+          <div class="card-image">
+            <img src="https://i.ibb.co/HDRRT6Zf/image.png" alt="Ruta de Sabores" loading="lazy">
+            <a href="https://photos.app.goo.gl/SvMzebbzJqMtbDrE8" target="_blank" class="gallery-link" rel="noopener noreferrer">
+              📸 Ver galería
+            </a>
+            <span class="category-badge">Convencionales</span>
+          </div>
+          <div class="card-content">
+            <h3>Ruta de Sabores</h3>
+            <div class="price">$44.000 <span class="currency">ARS</span></div>
+            <p class="description">Salidas miércoles y viernes · 08:00hs a 14:00hs. Incluye entrada a bodega, destilería y chocolatería con degustaciones.</p>
+            <button class="btn-consult" data-excursion="ruta-sabores">Consultar</button>
+          </div>
+        </article>
+
+        <!-- TOURS DE VINOS -->
+        <article class="excursion-card" data-category="vinos">
+          <div class="card-image">
+            <img src="https://i.ibb.co/b5Xcztsy/image.png" alt="Wine Classic Tour" loading="lazy">
+            <a href="https://photos.app.goo.gl/ch3SgfbbeCyHaaXx5" target="_blank" class="gallery-link" rel="noopener noreferrer">
+              📸 Ver galería
+            </a>
+            <span class="category-badge">Tours de Vinos</span>
+          </div>
+          <div class="card-content">
+            <h3>Wine Classic Tour</h3>
+            <div class="price">$130.000 <span class="currency">ARS</span></div>
+            <p class="description">Visita y degustación en una bodega + almuerzo en otra. Incluye traslados.</p>
+            <button class="btn-consult" data-excursion="wine-classic">Consultar</button>
+          </div>
+        </article>
+
+        <article class="excursion-card" data-category="vinos">
+          <div class="card-image">
+            <img src="https://i.ibb.co/Dgzt2kRk/image.png" alt="Tour privado Maipú/Luján" loading="lazy">
+            <a href="https://photos.app.goo.gl/TXtUfT8QWsem5Vyh7" target="_blank" class="gallery-link" rel="noopener noreferrer">
+              📸 Ver galería
+            </a>
+            <span class="category-badge">Tours de Vinos</span>
+          </div>
+          <div class="card-content">
+            <h3>Tour privado de vino por Maipú o Luján</h3>
+            <div class="price">$230.000 <span class="currency">ARS</span></div>
+            <p class="description">Salidas lunes a domingos (excursión en privado) · 09:30hs a 16:00hs. Incluye traslados, entradas y almuerzo. Visita y degustación en la primera bodega + almuerzo en la segunda bodega.</p>
+            <button class="btn-consult" data-excursion="tour-privado-maipu">Consultar</button>
+          </div>
+        </article>
+
+        <article class="excursion-card" data-category="vinos">
+          <div class="card-image">
+            <img src="https://i.ibb.co/LzyRS540/image.png" alt="Tour privado Valle de Uco" loading="lazy">
+            <a href="https://photos.app.goo.gl/Krr37EyKmWG3rgck9" target="_blank" class="gallery-link" rel="noopener noreferrer">
+              📸 Ver galería
+            </a>
+            <span class="category-badge">Tours de Vinos</span>
+          </div>
+          <div class="card-content">
+            <h3>Tour privado por el Valle de Uco</h3>
+            <div class="price">$390.000 <span class="currency">ARS</span></div>
+            <p class="description">Salidas lunes a domingos (traslados en privado) · 08:30hs a 18:30hs. Incluye traslados, visitas con degustación en 2 bodegas + almuerzo gourmet de pasos en una tercera bodega.</p>
+            <button class="btn-consult" data-excursion="tour-privado-uco">Consultar</button>
+          </div>
+        </article>
+
+        <article class="excursion-card" data-category="vinos">
+          <div class="card-image">
+            <img src="https://i.ibb.co/CpXSX56L/image.png" alt="Cena gourmet en bodega" loading="lazy">
+            <span class="category-badge">Tours de Vinos</span>
+          </div>
+          <div class="card-content">
+            <h3>Cena gourmet en bodega</h3>
+            <div class="price">$175.000 <span class="currency">ARS</span></div>
+            <p class="description">Salidas martes a domingos (excursión en privado) · 19:00hs a 22:00hs. Incluye traslados, entradas y cena gourmet de pasos.</p>
+            <button class="btn-consult" data-excursion="cena-gourmet">Consultar</button>
+          </div>
+        </article>
+
+        <article class="excursion-card" data-category="vinos">
+          <div class="card-image">
+            <img src="https://i.ibb.co/pvyfpNvD/image.png" alt="Experiencia Catena Zapata + El Enemigo" loading="lazy">
+            <a href="https://photos.app.goo.gl/gnFjUdysi6BpKFaX7" target="_blank" class="gallery-link" rel="noopener noreferrer">
+              📸 Ver galería
+            </a>
+            <span class="category-badge">Tours de Vinos</span>
+          </div>
+          <div class="card-content">
+            <h3>Experiencia Catena Zapata con almuerzo en El Enemigo</h3>
+            <div class="price">$555.000 <span class="currency">ARS</span></div>
+            <p class="description">Salidas martes a sábados (excursión en privado) · 09:30hs a 16:30hs. Visita con degustación en bodega Catena Zapata + almuerzo gourmet de pasos en bodega El Enemigo.</p>
+            <button class="btn-consult" data-excursion="catena-enemigo">Consultar</button>
+          </div>
+        </article>
+
+        <!-- AVENTURA -->
+        <article class="excursion-card" data-category="aventura">
+          <div class="card-image">
+            <img src="https://i.ibb.co/q3ynKRyx/image.png" alt="Cabalgata al atardecer" loading="lazy">
+            <a href="https://photos.app.goo.gl/vTbimHy4GxLf4Hqx9" target="_blank" class="gallery-link" rel="noopener noreferrer">
+              📸 Ver galería
+            </a>
+            <span class="category-badge">Aventura</span>
+          </div>
+          <div class="card-content">
+            <h3>Cabalgata al atardecer</h3>
+            <div class="price">$130.000 <span class="currency">ARS</span></div>
+            <p class="description">Salidas lunes a domingos · 16:30hs a 22:00hs. 2hs de cabalgata. Incluye cena (asado completo) y bebidas.</p>
+            <button class="btn-consult" data-excursion="cabalgata">Consultar</button>
+          </div>
+        </article>
+
+        <article class="excursion-card" data-category="aventura">
+          <div class="card-image">
+            <img src="https://i.ibb.co/d4yfMjKd/image.png" alt="Andestruck 4x4" loading="lazy">
+            <a href="https://photos.app.goo.gl/uWi7X96DZ6BMYwEz8" target="_blank" class="gallery-link" rel="noopener noreferrer">
+              📸 Ver galería
+            </a>
+            <span class="category-badge">Aventura</span>
+          </div>
+          <div class="card-content">
+            <h3>Andestruck 4x4</h3>
+            <div class="price">$95.000 <span class="currency">ARS</span></div>
+            <p class="description">Salidas lunes a domingo · 09:30hs a 17:00hs. Incluye traslado.</p>
+            <button class="btn-consult" data-excursion="andestruck">Consultar</button>
+          </div>
+        </article>
+
+        <article class="excursion-card" data-category="aventura">
+          <div class="card-image">
+            <img src="https://i.ibb.co/cfv4p8r/image.png" alt="Rafting, Tirolesa o Trekking" loading="lazy">
+            <a href="https://photos.app.goo.gl/6wTcnQ3tDCLXLaEfA" target="_blank" class="gallery-link" rel="noopener noreferrer">
+              📸 Ver galería
+            </a>
+            <span class="category-badge">Aventura</span>
+          </div>
+          <div class="card-content">
+            <h3>Rafting, Tirolesa o Trekking</h3>
+            <div class="price">$111.000 <span class="currency">ARS</span></div>
+            <p class="description">Salidas lunes a domingo · 09:30hs a 17:00hs. Incluye traslado.</p>
+            <button class="btn-consult" data-excursion="rafting-tirolesa">Consultar</button>
+          </div>
+        </article>
+
+        <article class="excursion-card" data-category="aventura">
+          <div class="card-image">
+            <img src="https://i.ibb.co/cfv4p8r/image.png" alt="Día de aventura" loading="lazy">
+            <a href="https://photos.app.goo.gl/6wTcnQ3tDCLXLaEfA" target="_blank" class="gallery-link" rel="noopener noreferrer">
+              📸 Ver galería
+            </a>
+            <span class="category-badge">Aventura</span>
+          </div>
+          <div class="card-content">
+            <h3>Día de aventura</h3>
+            <div class="price">$170.000 <span class="currency">ARS</span></div>
+            <p class="description">Salidas lunes a domingo · 09:30hs a 17:00hs. Incluye rafting y tirolesa (o trekking) con traslado.</p>
+            <button class="btn-consult" data-excursion="dia-aventura">Consultar</button>
+          </div>
+        </article>
+
+        <!-- MENDOZA EXCLUSIVA -->
+        <article class="excursion-card" data-category="exclusiva">
+          <div class="card-image">
+            <img src="https://i.ibb.co/zTmZjNKY/image.png" alt="Termas de Cacheuta" loading="lazy">
+            <a href="https://photos.app.goo.gl/5fnMViwU9xzMCZCn6" target="_blank" class="gallery-link" rel="noopener noreferrer">
+              📸 Ver galería
+            </a>
+            <span class="category-badge">Mendoza Exclusiva</span>
+          </div>
+          <div class="card-content">
+            <h3>Termas de Cacheuta · Full day</h3>
+            <div class="price">$136.000 <span class="currency">ARS</span></div>
+            <p class="description">Salidas de lunes a domingos · 09:00hs a 18:00hs aprox. Incluye acceso a las instalaciones, almuerzo (sin bebidas) y traslados en regular.</p>
+            <button class="btn-consult" data-excursion="termas-cacheuta">Consultar</button>
+          </div>
+        </article>
+
+        <article class="excursion-card" data-category="exclusiva">
+          <div class="card-image">
+            <img src="https://i.ibb.co/zTmZjNKY/image.png" alt="Mindfulness termal" loading="lazy">
+            <span class="category-badge">Mendoza Exclusiva</span>
+          </div>
+          <div class="card-content">
+            <h3>Mindfulness termal</h3>
+            <div class="price">$191.000 <span class="currency">ARS</span></div>
+            <p class="description">Salidas de lunes a domingos · 09:00hs a 18:00hs aprox. Incluye acceso a las instalaciones, clases de mindfulness, almuerzo (sin bebidas) y traslados en regular.</p>
+            <button class="btn-consult" data-excursion="mindfulness">Consultar</button>
+          </div>
+        </article>
+
+        <article class="excursion-card" data-category="exclusiva">
+          <div class="card-image">
+            <img src="https://i.ibb.co/C5P1vVPV/image.png" alt="Paseo en velero" loading="lazy">
+            <a href="https://photos.app.goo.gl/U6iRtv6TaTfCpRk47" target="_blank" class="gallery-link" rel="noopener noreferrer">
+              📸 Ver galería
+            </a>
+            <span class="category-badge">Mendoza Exclusiva</span>
+          </div>
+          <div class="card-content">
+            <h3>Paseo en velero por Potrerillos</h3>
+            <div class="price">USD 140 <span class="currency">USD</span></div>
+            <p class="description">Salidas de lunes a domingos · 09:00hs a 13:00hs aprox. Incluye hora y media de navegación, picada de quesos, degustación de vinos y traslados en privado.</p>
+            <button class="btn-consult" data-excursion="velero">Consultar</button>
+          </div>
+        </article>
+
+        <article class="excursion-card" data-category="exclusiva">
+          <div class="card-image">
+            <img src="https://i.ibb.co/TxJ8vvCC/image.png" alt="Paseo en globo" loading="lazy">
+            <a href="https://photos.app.goo.gl/VjqeHG32LWBUR28D7" target="_blank" class="gallery-link" rel="noopener noreferrer">
+              📸 Ver galería
+            </a>
+            <span class="category-badge">Mendoza Exclusiva</span>
+          </div>
+          <div class="card-content">
+            <h3>Paseo en globo al atardecer</h3>
+            <div class="price">USD 220 <span class="currency">USD</span></div>
+            <p class="description">Salidas de lunes a domingos · 17:00hs a 21:00hs aprox. Incluye dos horas de vuelo y traslados en privado.</p>
+            <button class="btn-consult" data-excursion="globo">Consultar</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <!-- MODAL DE DETALLE -->
+  <div class="modal" id="excursionModal">
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Cerrar modal">×</button>
+      <div class="modal-body" id="modalBody">
+        <!-- Contenido dinámico -->
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img 
+            src="https://i.ibb.co/Jj9spWWg/Logos-varias-opciones-2.png" 
+            alt="Aymará Turismo Logo"
+            loading="lazy"
+            width="120"
+            height="120"
+          >
+        </div>
+        <div class="footer-info">
+          <h4>Aymará Turismo</h4>
+          <p>Más de 35 años de experiencia en Mendoza</p>
+          <p class="footer-legal">Tarifas expresadas en pesos argentinos y dólares estadounidenses según se indica. Año 2025.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BOTÓN WHATSAPP FLOTANTE -->
+  <a href="https://wa.me/5492614708533" target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Contactar por WhatsApp">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+    </svg>
+    <span>Consultar</span>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
